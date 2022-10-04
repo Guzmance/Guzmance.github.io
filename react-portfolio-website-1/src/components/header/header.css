@@ -1,5 +1,5 @@
 header{
-    height: 120vh;
+    height: 110vh;
     padding-top:  7rem;
     overflow: hidden;
 }
@@ -47,7 +47,7 @@ header{
     height: 28rem;
     position: absolute;
     left:  calc(50% - 11rem);
-    margin-top: 6rem;
+    margin-top: 5rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
@@ -65,12 +65,18 @@ header{
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) ==================*/
 
+
 @media screen and (max-width: 1024px) {
     .container {
         height: 68vh;
 
     }
+    header{
+        height: 75vh;
+    }
 }
+
+
 
 
 /* ===================== MEDIA QUERIES (SMALL DEVICES) ==================*/
