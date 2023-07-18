@@ -90,6 +90,7 @@ h1 {
 
 section {
   margin-top: 7rem;
+  height: auto;
 }
 
 section > h2,
@@ -153,6 +154,7 @@ img {
 
   section {
     margin-top: 6rem;
+    height: auto;
   }
 }
 
@@ -161,6 +163,7 @@ img {
 @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
+    height: auto;
   }
 
   section > h2 {
