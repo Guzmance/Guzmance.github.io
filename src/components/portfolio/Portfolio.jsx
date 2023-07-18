@@ -6,6 +6,15 @@ import IMG3 from '../../assets/RicknMorty.png';
 import IMG4 from '../../assets/ecommerce.jpg';
 import IMG5 from '../../assets/foodapp.png';
 import IMG6 from '../../assets/Admin Panel.png';
+import { useMediaQuery } from 'react-responsive';
+// import Swiper core and required modules
+import { Pagination } from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const data = [
   {
@@ -53,14 +62,29 @@ const data = [
 ];
 
 const Portfolio = () => {
+  const isSmallScreen = useMediaQuery({ maxWidth: 767 });
+  const isTabletScreen = useMediaQuery({ maxWidth: 1024 });
+
+  let slidesPerView = 3;
+  if (isSmallScreen) {
+    slidesPerView = 1;
+  } else if (isTabletScreen) {
+    slidesPerView = 2;
+  }
   return (
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-      <div className="container portfolio_container">
+      <Swiper
+        className="container portfolio_container"
+        modules={[Pagination]}
+        spaceBetween={40}
+        slidesPerView={slidesPerView}
+        pagination={{ clickable: true }}
+      >
         {data.map(({ id, title, image, github, demo }) => {
           return (
-            <article key={id} className="portfolio_item">
+            <SwiperSlide key={id} className="portfolio_item">
               <div className="portfolio_item-image">
                 <img src={image} alt={title} />
               </div>
@@ -70,10 +94,10 @@ const Portfolio = () => {
                   Github
                 </a>
               </div>
-            </article>
+            </SwiperSlide>
           );
         })}
-      </div>
+      </Swiper>
     </section>
   );
 };
