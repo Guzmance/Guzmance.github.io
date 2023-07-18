@@ -21,25 +21,27 @@ function About() {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <h5>Studies</h5>
+              <small>Fifth Year Of University</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>0+ Worldwide</small>
+              <h5>People</h5>
+              <small>10+ Teamwork Projects</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>1+ Completed Projects</small>
+              <small>8+ Completed University Projects</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure iste
-            tenetur omnis quos possimus qui id corporis praesentium illo amet
-            dolorum deserunt voluptas suscipit, excepturi dolore aliquid totam
-            voluptatibus similique.
+            I´m looking for a great place to work, which gives me the
+            opportunity to put into practice all of my personal and intellectual
+            skills, achieve corporate goals, develop improved processes for
+            managing IT requests and accomplish projects in a more efficient
+            way. Giving my best to continue learning and abide by any
+            instructions given to me.
           </p>
 
           <a href="#contact" className="btn btn-primary">

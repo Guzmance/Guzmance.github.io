@@ -16,27 +16,31 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>User Interface Design</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>User Experience Design</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>User Research and Analysis</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Interactive Prototyping</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Usability Testing</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>User Experience Optimization</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Mobile Interface Design</p>
             </li>
           </ul>
         </article>
@@ -48,31 +52,35 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Front-end Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Back-end Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Interactive Website Creation</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Web Application Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>E-commerce Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>API Integration and Web Services</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Web Performance Optimization</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Website Maintenance and Updates</p>
             </li>
           </ul>
         </article>
@@ -84,27 +92,35 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Web Content Writing</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Blog and Article Creation</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Content Marketing Strategies</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Visual Content Creation (Images, Infographics, etc.)</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Editing and Proofreading</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur elit.</p>
+              <p>Social Media Management and Posts</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Content Creation for Advertising Campaigns</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Guide and Manual Creation</p>
             </li>
           </ul>
         </article>
