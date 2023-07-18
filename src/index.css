@@ -20,31 +20,31 @@
 
   /*--color-bg: #252525;
   --color-bg-variant: #252525;
-  --color-primary: #AF0404;
+  --color-primary: #af0404;
   --color-primary-variant: #414141;
   --color-white: #fff;
-  --color-light: #FF0000;*/
+  --color-light: #ff0000;*/
 
   /*--color-bg: #1f1f38;
-  --color-bg-variant: #022C43;
+  --color-bg-variant: #022c43;
   --color-primary: #115173;
   --color-primary-variant: #053f5e;
   --color-white: #fff;
-  --color-light: #FFD700;*/
+  --color-light: #ffd700;*/
 
   /*--color-bg: #162447;
   --color-bg-variant: #162447;
-  --color-primary: #1B1B2F;
-  --color-primary-variant: #1F4068;
+  --color-primary: #1b1b2f;
+  --color-primary-variant: #1f4068;
   --color-white: #fff;
-  --color-light: #E43F5A;*/
+  --color-light: #e43f5a;*/
 
   /*--color-bg: #222831;
-  --color-bg-variant: #393E46;
-  --color-primary: #D65A31;
-  --color-primary-variant: #1F4068;
-  --color-white: #EEEEEE;
-  --color-light: #D65A31;*/
+  --color-bg-variant: #393e46;
+  --color-primary: #d65a31;
+  --color-primary-variant: #1f4068;
+  --color-white: #eeeeee;
+  --color-light: #d65a31;*/
 
   --transition: all 400ms ease;
 
@@ -54,7 +54,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 
 ::-webkit-scrollbar {
@@ -66,6 +66,7 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
+  scroll-behavior: smooth !important;
   background-image: url(../src/assets/bg-texture.png);
 }
 
