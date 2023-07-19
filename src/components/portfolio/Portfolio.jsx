@@ -6,6 +6,7 @@ import IMG3 from '../../assets/RicknMorty.png';
 import IMG4 from '../../assets/ecommerce.jpg';
 import IMG5 from '../../assets/foodapp.png';
 import IMG6 from '../../assets/Admin Panel.png';
+import IMG7 from '../../assets/spotify.gif';
 import { useMediaQuery } from 'react-responsive';
 // import Swiper core and required modules
 import { Pagination } from 'swiper/modules';
@@ -58,6 +59,13 @@ const data = [
     title: 'Admin Crud Panel',
     github: 'https://github.com/PracticaProfesional-2023/FrontEndAdmin',
     demo: 'https://github.com/PracticaProfesional-2023/FrontEndAdmin',
+  },
+  {
+    id: 6,
+    image: IMG7,
+    title: 'Spotify Clone',
+    github: 'https://github.com/fdgbatarse1/Spotify',
+    demo: 'https://github.com/fdgbatarse1/Spotify',
   },
 ];
 
