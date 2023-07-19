@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/PortfolioGuzmance/static/css/main.0c3bdac9.css",
+    "main.js": "/PortfolioGuzmance/static/js/main.4a0420b2.js",
+    "static/media/me.png": "/PortfolioGuzmance/static/media/me.8a51965f2f9bde067003.png",
+    "static/media/foodapp.png": "/PortfolioGuzmance/static/media/foodapp.3aa2d4ba4a814090ca2a.png",
+    "static/media/TripAdvisor.png": "/PortfolioGuzmance/static/media/TripAdvisor.c73c5499eb94ac4f906e.png",
+    "static/media/RicknMorty.png": "/PortfolioGuzmance/static/media/RicknMorty.ac2d897b43d14f9dc7b2.png",
+    "static/media/Admin Panel.png": "/PortfolioGuzmance/static/media/Admin Panel.4401568b362e88ceecf1.png",
+    "static/media/pokeapi.png": "/PortfolioGuzmance/static/media/pokeapi.03f735414044d215b3dc.png",
+    "static/media/me-about.jpeg": "/PortfolioGuzmance/static/media/me-about.9416fd009efbae9fee85.jpeg",
+    "static/media/ecommerce.jpg": "/PortfolioGuzmance/static/media/ecommerce.ec2eb51430244abf4520.jpg",
+    "static/media/Resume.pdf": "/PortfolioGuzmance/static/media/Resume.0a1b83746192c872f4e3.pdf",
+    "index.html": "/PortfolioGuzmance/index.html",
+    "main.0c3bdac9.css.map": "/PortfolioGuzmance/static/css/main.0c3bdac9.css.map",
+    "main.4a0420b2.js.map": "/PortfolioGuzmance/static/js/main.4a0420b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c3bdac9.css",
+    "static/js/main.4a0420b2.js"
+  ]
+}
