@@ -7,6 +7,7 @@ import IMG4 from '../../assets/ecommerce.jpg';
 import IMG5 from '../../assets/foodapp.png';
 import IMG6 from '../../assets/Admin Panel.png';
 import IMG7 from '../../assets/spotify.gif';
+import IMG8 from '../../assets/netflixclone.png';
 import { useMediaQuery } from 'react-responsive';
 // import Swiper core and required modules
 import { Pagination } from 'swiper/modules';
@@ -27,45 +28,52 @@ const data = [
   },
   {
     id: 2,
-    image: IMG2,
-    title: 'Poke API',
-    github: 'https://github.com/Guzmance/PokeApi',
-    demo: 'https://github.com/Guzmance/PokeApi',
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'Rick and Morty API ',
-    github: 'https://github.com/Guzmance/RickandMortyAPI',
-    demo: 'https://github.com/Guzmance/RickandMortyAPI',
-  },
-  {
-    id: 4,
     image: IMG4,
     title: 'Ecommerce',
     github: 'https://github.com/Guzmance/next-tailwind-ecommerce',
     demo: 'https://github.com/Guzmance/next-tailwind-ecommerce',
   },
   {
-    id: 5,
+    id: 3,
     image: IMG5,
     title: 'Food App Mobile',
     github: 'https://github.com/Guzmance/FoodAppProject',
     demo: 'https://github.com/Guzmance/FoodAppProject',
   },
   {
-    id: 6,
+    id: 4,
     image: IMG6,
     title: 'Admin Crud Panel',
     github: 'https://github.com/PracticaProfesional-2023/FrontEndAdmin',
     demo: 'https://github.com/PracticaProfesional-2023/FrontEndAdmin',
   },
   {
-    id: 6,
+    id: 5,
     image: IMG7,
     title: 'Spotify Clone',
     github: 'https://github.com/fdgbatarse1/Spotify',
     demo: 'https://github.com/fdgbatarse1/Spotify',
+  },
+  {
+    id: 6,
+    image: IMG8,
+    title: 'Netflix Clone',
+    github: 'https://github.com/Guzmance/Netflix-Clone.git',
+    demo: 'https://github.com/Guzmance/Netflix-Clone.git',
+  },
+  {
+    id: 7,
+    image: IMG2,
+    title: 'Poke API',
+    github: 'https://github.com/Guzmance/PokeApi',
+    demo: 'https://github.com/Guzmance/PokeApi',
+  },
+  {
+    id: 8,
+    image: IMG3,
+    title: 'Rick and Morty API ',
+    github: 'https://github.com/Guzmance/RickandMortyAPI',
+    demo: 'https://github.com/Guzmance/RickandMortyAPI',
   },
 ];
 
