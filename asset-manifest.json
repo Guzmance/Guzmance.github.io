@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/PortfolioGuzmance/static/css/main.0c3bdac9.css",
-    "main.js": "/PortfolioGuzmance/static/js/main.467b03bb.js",
+    "main.js": "/PortfolioGuzmance/static/js/main.eb40576a.js",
     "static/media/spotify.gif": "/PortfolioGuzmance/static/media/spotify.b375ae53591ac68e9d8d.gif",
     "static/media/me.png": "/PortfolioGuzmance/static/media/me.8a51965f2f9bde067003.png",
+    "static/media/netflixclone.png": "/PortfolioGuzmance/static/media/netflixclone.78688251ec78da3d90a9.png",
     "static/media/foodapp.png": "/PortfolioGuzmance/static/media/foodapp.3aa2d4ba4a814090ca2a.png",
     "static/media/TripAdvisor.png": "/PortfolioGuzmance/static/media/TripAdvisor.c73c5499eb94ac4f906e.png",
     "static/media/RicknMorty.png": "/PortfolioGuzmance/static/media/RicknMorty.ac2d897b43d14f9dc7b2.png",
@@ -14,10 +15,10 @@
     "static/media/Resume.pdf": "/PortfolioGuzmance/static/media/Resume.0a1b83746192c872f4e3.pdf",
     "index.html": "/PortfolioGuzmance/index.html",
     "main.0c3bdac9.css.map": "/PortfolioGuzmance/static/css/main.0c3bdac9.css.map",
-    "main.467b03bb.js.map": "/PortfolioGuzmance/static/js/main.467b03bb.js.map"
+    "main.eb40576a.js.map": "/PortfolioGuzmance/static/js/main.eb40576a.js.map"
   },
   "entrypoints": [
     "static/css/main.0c3bdac9.css",
-    "static/js/main.467b03bb.js"
+    "static/js/main.eb40576a.js"
   ]
 }
