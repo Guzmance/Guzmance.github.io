@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React from 'react';
-import './about.css';
-import ME from '../../assets/me-about.jpeg';
-import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
-import { VscFolderLibrary } from 'react-icons/vsc';
+import React from "react";
+import "./about.css";
+import ME from "../../assets/me-about.jpeg";
+import { FaAward } from "react-icons/fa";
+import { FiUsers } from "react-icons/fi";
+import { VscFolderLibrary } from "react-icons/vsc";
 
 function About() {
   return (
@@ -22,7 +22,7 @@ function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Studies</h5>
-              <small>Fifth Year Of University</small>
+              <small>Software Engineering Completed</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -36,12 +36,11 @@ function About() {
             </article>
           </div>
           <p>
-            I´m looking for a great place to work, which gives me the
-            opportunity to put into practice all of my personal and intellectual
-            skills, achieve corporate goals, develop improved processes for
-            managing IT requests and accomplish projects in a more efficient
-            way. Giving my best to continue learning and abide by any
-            instructions given to me.
+            What I anticipate from an excellent workplace is the chance to apply
+            all of my personal and intellectual skills, align with corporate
+            objectives, refine processes for managing IT requests, and execute
+            projects more efficiently. I'm committed to giving my best,
+            continuously learning, and adhering to instructions diligently.
           </p>
 
           <a href="#contact" className="btn btn-primary">
